@@ -7,7 +7,7 @@ public class NumberGame {
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
 
-        System.out.print("Enter no of Attempts : ");
+        System.out.print("Enter Total no of Attempts : ");
         int totalAttempts = sc.nextInt();
         sc.nextLine();
 
