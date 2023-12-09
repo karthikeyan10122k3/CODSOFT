@@ -47,7 +47,7 @@ public class NumberGame {
                     System.out.println("Sorry, you lost. Your Score : 0%" );
                     System.out.println("The correct number was: " + randomNumber +"\n");
                 }
-
+                guessed = false;
                 System.out.println("Do you want to play again? (Yes or No)");
                 choice = sc.nextLine();
 
