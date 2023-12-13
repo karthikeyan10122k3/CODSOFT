@@ -18,7 +18,6 @@ public class StudentGradeCalculator {
         double averagePercentageObtained = ((double) totalMarks / noOfSubjects);
 
         String gradeObtained;
-
         if (averagePercentageObtained == 100) {
             gradeObtained = "O";
         } else if (averagePercentageObtained >= 90) {
